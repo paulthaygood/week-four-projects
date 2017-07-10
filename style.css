@@ -1,0 +1,38 @@
+html{
+    background:url(http://cdn.wallpapersafari.com/3/44/GQsKOm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.superhero_container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.smallContainer{
+    background: ghostwhite;
+    border: 5px solid darkgray;
+    border-radius:1%;
+    font-size: 1.5rem;
+    margin: 5%;
+    text-align: center;
+    width: 50%;
+
+}
+.smallContainer img{
+    border: 5px solid black;
+    border-radius:1%;
+    margin:5%;
+    width: 50%;
+}
+
+.smallContainer .name {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.smallContainer .description{
+    font-family: monospace;
+    margin: 10%;
+}
